@@ -1,6 +1,6 @@
 # sim_ES-inflation-by-pub-bias
 
-This is an R script for a minimal simulation of the influence of extreme publication bias (only significant results get published) on effect sizes. 
+This is an R script for a minimal simulation of the influence of extreme publication bias (only significant results get published) on effect sizes. I wrote this for a [workshop](https://osf.io/pg29z/) on open science I gave at the University of Göttingen on 9th June 2017. 
 
 The first part of the script ("adjust these values", line 11-16) lets you pick a true effect size (d) and sample size (n - this is actually the group size for the two-group experiments we will simulate). After setting these, run the script down to line 61. This will simulate 10,000 two-sample t-tests with the group size you just entered, drawing from a population in which the effect size you entered is true.
 
